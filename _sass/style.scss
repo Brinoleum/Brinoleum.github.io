@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+// Fix from Github: Bulma issue 47
+// -- This makes the footer stick to the bottom of the page
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.my-content {
+    flex: 1;
+}
+// end fix
+
+
+@import "../node_modules/bulma/bulma.sass";

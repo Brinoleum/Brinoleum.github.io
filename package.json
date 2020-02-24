@@ -1,0 +1,26 @@
+{
+  "name": "brinoleum.github.io",
+  "version": "1.0.0",
+  "description": "Brian's website",
+  "main": "_sass/style.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css-build": "node-sass --omit-source-map-url _sass/style.scss css/style.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brinoleum/brinoleum.github.io.git"
+  },
+  "author": "Brian Chu",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Brinoleum/brinoleum.github.io/issues"
+  },
+  "homepage": "https://github.com/Brinoleum/brinoleum.github.io#readme",
+  "devDependencies": {
+    "bulma": "^0.8.0",
+    "node-sass": "^4.13.1"
+  }
+}
