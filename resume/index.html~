@@ -1,0 +1,10 @@
+---
+layout: default
+title: Resume
+---
+<div class="resume">
+  <section class="section">
+    <h2 class="title is-4">My resume</h2>
+    <iframe frameborder="0" src="/static/ChuBrian.pdf" height="auto" width="auto"></iframe>
+  </section>
+</div>
